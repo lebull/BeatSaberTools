@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Editing Tools for Beat Saber",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "npm": "^6.3.0"
+  },
   "devDependencies": {
     "chai": "^4.1.2",
     "grunt": "^1.0.3",
