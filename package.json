@@ -1,0 +1,19 @@
+{
+  "name": "beatsabertools",
+  "version": "1.0.0",
+  "description": "Editing Tools for Beat Saber",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/lebull/BeatSaberTools"
+  },
+  "author": "lebull",
+  "license": "ISC"
+}
