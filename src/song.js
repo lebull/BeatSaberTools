@@ -1,26 +1,27 @@
-//const fs = require('fs');
-import fs from 'fs';
-class Song{
+const fs = require('fs');
+//import fs from 'fs';
+module.exports = function Song(){
 
-  static load(filename){
-    return JSON.parse(fs.readFileSync(filename));
-  }
-
-  static save(song, newFileName, options){
-
-    var fullpath = newFileName;
-
-    if(options.path){
-      //@TODO: Join this path via fs.
-      fullpath = options.path + "/" + fullpath;
-    };
-
-    fs.writeFile(fullpath, JSON.stringify(song) , 'utf-8');
-  }
+  // loadTrack(filename){
+  //   return JSON.parse(fs.readFileSync(filename));
+  // }
+  //
+  // constructor(){}
+  //
+  // saveTrack(song, newFileName, options){
+  //
+  //   var fullpath = newFileName;
+  //
+  //   if(options.path){
+  //     //@TODO: Join this path via fs.
+  //     fullpath = options.path + "/" + fullpath;
+  //   };
+  //
+  //   fs.writeFile(fullpath, JSON.stringify(song) , 'utf-8');
+  // }
 }
 
-module.exports = Song();
-
+//export default Song;
 
 
 // if (require.main === module) {

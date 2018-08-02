@@ -6,8 +6,9 @@ module.exports = function(grunt){
       all: {
         src: ['test/testrunner.html'],
       },options: {
-        run: true,
-        growlOnSuccess: false
+        run : true,
+        growlOnSuccess : false,
+        growlOnFail : false
       }
     }
   });
