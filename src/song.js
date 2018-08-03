@@ -2,9 +2,12 @@ const fs = require('fs');
 //import fs from 'fs';
 module.exports = function Song(){
 
-  // loadTrack(filename){
-  //   return JSON.parse(fs.readFileSync(filename));
-  // }
+  return {
+
+   loadTrack: function(filename){
+     return JSON.parse(fs.readFileSync(filename));
+   }
+  }
   //
   // constructor(){}
   //
